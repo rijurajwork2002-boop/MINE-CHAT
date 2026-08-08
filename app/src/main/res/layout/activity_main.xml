@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1E1E1E"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MINE-CHAT"
+            android:textColor="#FFD700"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="8dp" />
+
+        <TextView
+            android:id="@+id/text_peer_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No peers"
+            android:textColor="#9E9E9E"
+            android:textSize="12sp"
+            android:paddingEnd="8dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_sos"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🚨  SEND SOS EMERGENCY SIGNAL"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#D32F2F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#1E1E1E"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Type a message…"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9E9E9E"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:background="#2C2C2C"
+            android:layout_marginEnd="8dp" />
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_send"
+            android:background="#FFD700"
+            android:contentDescription="Send" />
+
+    </LinearLayout>
+
+</LinearLayout>

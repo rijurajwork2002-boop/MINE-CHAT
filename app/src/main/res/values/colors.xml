@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mine theme colours -->
+    <color name="mine_dark">#121212</color>
+    <color name="mine_surface">#1E1E1E</color>
+    <color name="mine_yellow">#FFD700</color>
+    <color name="mine_grey">#9E9E9E</color>
+    <color name="sos_red">#D32F2F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bubble_local">#FFD700</color>
+    <color name="bubble_remote">#2C2C2C</color>
+    <color name="bubble_sos">#B71C1C</color>
+</resources>
