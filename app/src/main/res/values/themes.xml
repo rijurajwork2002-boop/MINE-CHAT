@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MineChat" parent="android:Theme.Material">
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">#1E1E1E</item>
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="android:colorPrimary">#FFD700</item>
+        <item name="android:colorPrimaryDark">#1E1E1E</item>
+        <item name="android:colorAccent">#FFD700</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorHint">#9E9E9E</item>
+    </style>
+
+    <style name="Theme.MineChat.Splash" parent="Theme.MineChat">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
