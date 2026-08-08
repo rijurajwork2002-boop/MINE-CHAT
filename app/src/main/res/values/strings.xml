@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MINE-CHAT</string>
+    <string name="subtitle">Offline-ready miner messaging and emergency signalling.</string>
+    <string name="offline_status_ready">Offline mode active. Log updates can be shared locally between miners.</string>
+    <string name="offline_status_sos">SOS beacon logged. Keep device visible and coordinate rescue.</string>
+    <string name="section_hint">Shaft / section (for example: North Tunnel B2)</string>
+    <string name="message_hint">Write an offline update for your crew.</string>
+    <string name="send_button">Send chat</string>
+    <string name="sos_button">Trigger SOS</string>
+    <string name="log_heading">Field log</string>
+    <string name="chat_badge">CHAT</string>
+    <string name="sos_badge">SOS</string>
+    <string name="chat_meta">%1$s • %2$s • %3$s</string>
+    <string name="message_required">Enter a message before sending.</string>
+    <string name="default_log_message">Shift hand-off complete. Offline log is ready for the next update.</string>
+    <string name="default_section">Operations</string>
+</resources>
