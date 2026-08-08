@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#F4F1EA</color>
+    <color name="textPrimary">#1B1F23</color>
+    <color name="textSecondary">#5C6773</color>
+    <color name="chatBadge">#6C8D4A</color>
+    <color name="sosBadge">#B3261E</color>
+    <color name="statusBackground">#DDE8C9</color>
+</resources>
